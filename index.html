@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <title>Тестовый сайт</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="Тестовый сайт" />
+    <meta name="description" content="Тестовый сайт" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    -->
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="header">
+    <div class="menu">
+        <button type="button" id="addStudent">+ Добавить</button>
+    </div>
+</div>
+<div class="left">
+    <div class="stList">
+        <table>
+            <thead>
+                <tr>
+                    <th>Фамилия И.О.</th>
+                    <th>Телефон</th>
+                    <th>&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody id="stList">
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="right">
+    <form id="stForm">
+        <div class="form-element">
+            <label for="iSurname">Фамилия</label>
+            <input type="text" id="iSurname" class="form-input" value="" placeholder="Фамилия" />
+        </div>
+        <div class="form-element">
+            <label for="iName">Имя</label>
+            <input type="text" id="iName" class="form-input" value="" placeholder="Имя" />
+        </div>
+        <div class="form-element">
+            <label for="iMiddlename">Отчество</label>
+            <input type="text" id="iMiddlename" class="form-input" value="" placeholder="Отчество" />
+        </div>
+        <div class="form-element">
+            <label for="iPhone">Телефон</label>
+            <input type="tel" id="iPhone" class="form-input" value="" placeholder="Телефон" />
+        </div>
+        <div class="form-element">
+            <label>
+                <input type="checkbox" id="havJS" value="1"> Знает JS
+            </label>
+        </div>
+        <div class="form-element">
+            <button type="button" id="actionForm">Сохранить</button>
+        </div>
+    </form>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
