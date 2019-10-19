@@ -1,3 +1,4 @@
+/api/node_modules
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar

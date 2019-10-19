@@ -1,0 +1,10 @@
+{
+  "name": "steam",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "mysql": "^2.17.1",
+    "node-static": "^0.7.11"
+  }
+}
